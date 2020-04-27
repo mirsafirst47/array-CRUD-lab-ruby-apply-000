@@ -7,13 +7,11 @@ arr = [1,2,3,4]
 end
 
 def add_element_to_end_of_array(array, element)
-  arr = [1,2,3,4]
-  arr << "5"
+  arr << element
 end
 
 def add_element_to_start_of_array(array, element)
-  arr = [1,2,3,4]
-  arr.unshift("0")
+  arr.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
